@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: whitesmoke;
+    text-align: left;
+}
+
+
+/* Heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 13% 3% 15%;
+}
+
+.row {}
+
+.navbar {
+    padding-bottom: 8%;
+    margin-left: -2%;
+}
+
+#iphone {
+    transform: rotate(20deg);
+}
+
+#iphonediv {
+    transform: scale(.67);
+    padding-top: 0px;
+    margin-top: -16%;
+    padding-left: 1%;
+    margin-bottom: -33%;
+}
+
+.downloadbtn {
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 10px 0px 28px;
+    font-size: .8rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar-nav {}
+
+
+/* features section */
+
+#features {
+    padding: 3% 10% 1% 10%;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#features h3 {
+    font-size: 1.8rem;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+.coolfas {
+    color: #ef8172;
+    margin-bottom: .5rem;
+}
+
+.coolfas:hover {
+    color: #ff4c68;
+}
+
+.featurediv {
+    padding: 5%;
+}
+
+
+/* testomonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    /* background-color: #ef8172; */
+    color: whitesmoke;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pebble-img {
+    border-radius: 100%;
+    width: 15%;
+    margin: 3%;
+}
+
+
+/* press */
+
+#press {
+    background-color: #ff4c68;
+    /* background-color: #ef8172; */
+    padding-bottom: 30px;
+}
+
+.press-logos {
+    width: 17.5%;
+    margin: 10px 7px 10px 7px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    width: 75%;
+    margin: auto;
+    padding: 5% 1%;
+}
+
+.pricing-column {
+    padding: 5% 2.5%;
+}
+
+
+/* Call To Action */
+
+#cta {
+    background-color: #ff4c68;
+    color: whitesmoke;
+    padding: 10%;
+}
+
+#cta h2 {
+    font-size: 3rem;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: whitesmoke;
+    padding: 5%;
+}
+
+.socials {
+    margin: 1.7%;
+}
+
+.socials:hover {
+    color: #ff4c68;
+    ;
+}
+
+
+/* Media Query */
+
+@media (max-width: 767px) {
+    .title-image-row {
+        text-align: center;
+    }
+    #iphone {
+        transform: rotate(0);
+    }
+    #iphonediv {
+        text-align: center;
+        margin-bottom: -18%;
+        padding-left: 0%;
+    }
+    .container-fluid {
+        padding: 3% 7% 3% 7%;
+    }
+    .downbuttons {
+        margin: auto;
+    }
+}
